@@ -14,12 +14,12 @@
   --primary-font: #{$primary-font};
   --title-font: #{$title-font};
   --placeholder: #{$placeholder};
-  --boxShadowForMainContainer: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --boxShadowForImageDetails: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 html,
 body {
-  background-color: var(--primary);
+  background-color: var(--fill);
   padding: 0;
   margin: 0;
   font-family: var(--primary-font);
