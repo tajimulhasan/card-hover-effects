@@ -27,14 +27,14 @@
   position: absolute;
   background-color: $primary;
   border-radius: 0.5rem;
-  bottom: -3.5rem;
+  bottom: -1.5rem;
   padding: 1.5rem;
   box-shadow: var(--boxShadowForImageDetails);
   opacity: 0;
   transform: translateY(1.5rem);
   transition: opacity 1s;
 
-  & p:nth-child(2) {
+  & p:nth-child(2){
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 8px;
@@ -42,7 +42,7 @@
 }
 
 .cardElements:hover .cardImage {
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .cardElements:hover .imgDetail {
@@ -64,7 +64,7 @@
   }
   100% {
     transform: translateY(1.5rem);
-  }
+}
 }
 
 @keyframes hide-imgDetails {

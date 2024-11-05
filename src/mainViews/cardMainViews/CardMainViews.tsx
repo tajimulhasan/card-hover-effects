@@ -9,6 +9,7 @@ import secondImg from "../../images/b.png";
 import thirdImg from "../../images/c.png";
 
 export const CardMainViews = () => {
+
   const cardElements = [
     {
       image: firstImg,
